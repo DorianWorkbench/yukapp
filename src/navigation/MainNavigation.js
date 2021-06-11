@@ -24,7 +24,8 @@ export const MainNavigation = () =>{
             ):route.name!=="Picker"?
               <TouchableOpacity
                 onPress={() => {
-                  navigation.goBack(null)
+                    console.log("Je retourne en arrière depuis le détail");
+                    navigation.goBack();
                 }}
               >
                 <Icon name="arrowleft" size={25} style={{padding:10}}/>

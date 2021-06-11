@@ -20,7 +20,7 @@ export const CheckView = ({navigation})=>{
 
   const checkDetails = (DetailsR) =>{
     console.log("check Details");
-    console.log(DetailsR);
+    console.log(DetailsR.product.product_name);
     navigation.navigate("Details", {network:false, data:DetailsR})
   };
 

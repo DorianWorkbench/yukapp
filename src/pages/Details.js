@@ -22,6 +22,7 @@ export const Details = ({route})=>{
       }
       details();
     }else if(!network){
+      console.log("test network");
       let detailsInt = async () => {
         try{
           const result = JSON.parse(await AsyncStorage.getItem('@articles')).filter(e=>e.code === data.code)[0];
@@ -34,7 +35,7 @@ export const Details = ({route})=>{
       };
       detailsInt();
     }
-  }, [detail?.product?.product_name || data]);
+  }, [data.code]);
   // Obligation de faire 2 useEffect, on ne peut pas utiliser la valeur de changement du state dans le meme useEffect.
   // Je fais écouter celui-ci sur detail pour avec la valeur dès qu'elle change.
   // j'évite de faire passer undefined à ma superbe fonction sinon on se retrouve avec undefined dans les conditions et c'est pas fou.
