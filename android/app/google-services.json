@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "569500180406",
+    "project_id": "yukapp-252ec",
+    "storage_bucket": "yukapp-252ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569500180406:android:b55ab7ae00df6993576b17",
+        "android_client_info": {
+          "package_name": "com.yukapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569500180406-s8c95vvq3gs6fslmop5uc5v868lkqlk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvJna7sd7xDVC_R3SmgQ0cUEcbtckPYRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569500180406-s8c95vvq3gs6fslmop5uc5v868lkqlk0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
